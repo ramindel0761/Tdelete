@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/tele_bom_bang_new
+cd $HOME/Tdelete
 
 install() {
 	    cd tg
