@@ -3,32 +3,32 @@ if matches[1]:lower() == "help" or matches[1] == 'راهنما' and is_mod(msg) 
 if not lang then
 text = [[
 
-💠 bom_bang Help 💠
-︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🔶 !mod help
-⚙️》راهنما مدریت
-︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🔷 !lock help1
-⚙️》راهنما قفل1
-︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🔶 !lock help2
-⚙️》راهنما قفل2
-︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🔷 !sudo help
-⚙️》راهنما سودو
-︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-‼️ توجه ‼️
-دستورات هم انگلیسی هستند هم فارسی میتوانید بنویسید 👇
-
- راهنما قفل   👉👈  lock help!   
-︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🌐 @bom_bang_team 🌐 ;)]]
+⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
+💠_دستورات فارسی :_
+🎗*»  راهنمای صاحب*
+🔹#دستورات‌صاحب‌ربات 🙄👆🏻
+_»»»»»»»»»»»»»»»_
+🎗*»راهنما قفل1*
+🔸#دستورات‌قفلی 🙄👆🏻
+_»»»»»»»»»»»»»»»_
+🎗*»راهنما مدیریت*
+🔹#دستورات‌مدیریتی 🙄👆🏻
+_»»»»»»»»»»»»»»»_
+🎗*»  راهنما قفل2*
+🔸#دستورات‌قفلی‌ 🙄👆🏻
+_»»»»»»»»»»»»»»»_
+> زبان ربات فارسی !
+_برای تغییر زبان_
+ *تنظیم زبان* `[فارسی , انگلسیی]`
+*〰〰〰〰〰〰〰〰〰*
+🎭*pwered вy :* @xx_MRirani_xx
+💢*cнαɴɴel :* @deleteTeam ]]
 
 elseif lang then
 
 text = [[
 
-💠 bom_bang Help 💠
+💠 delete_Team Help 💠
 ︻︻︻︻︻︻︻︻︻︻︻︻︻︻
 🔶 !mod help
 ⚙️》راهنما مدریت
@@ -47,7 +47,7 @@ text = [[
 
  راهنما قفل   👉👈  lock help!   
 ︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🌐 @bom_bang_team 🌐 ;)]]
+🌐 @deleteTeam 🌐 ;)]]
 end
 return text
 end
@@ -183,125 +183,40 @@ if matches[1]:lower() == "lock help2" or matches[1] == 'راهنما قفل2' an
 if not lang then
 lock2 = [[
 🔐راهنما قفل2🔛lock help2!🔐
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل گیف
-🔸 باز کردن گیف
-🔹 !lock gif
-🔸 !unlock gif
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل عکس
-🔸 باز کردن عکس
- 🔹 !lock photo
-🔸  !unlock photo
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فایل
-🔸 باز کردن فایل
-🔹 !lock document 
-🔸 !unlock document
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل استیکر
-🔸 باز کردن استیکر
-🔹  !lock sticker
-🔸 !unlock sticker
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فیلم 
-🔸 باز کردن فیلم
-🔹 !lock video
-🔸 !unlock video
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل متن
-🔸 باز کردن متن
-🔹 !lock text
-🔸 !unlock text
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فروارد
-🔸 باز کردن فروارد
-🔹  !lock forward
-🔸  !unlock forward
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل ویس
-🔸 باز کردن ویس
-🔹  !lock voice
-🔸 !unlock voice
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل اطلاعات تماس
-🔸 باز کردن اطلاعات تماس
-🔹  !lock contact
-🔸 !unlock contact
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل همه 
-🔸 باز کردن همه 
-🔹 !lock all
-🔸 !unlock all
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹قفل  اینلاین
-🔸 باز کردن اینلاین
-🔹 !lock inline
-🔸 !unlock inline
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+#Lock commands 
+🔒*Lock*  
+`[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
+🔓*Unlock* 
+ `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
+ #Mute commands
+🔇*Mute* 
+`[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact ,tgservice , inline , all , keyboard]`
+🔊*Unmute*
+ `[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact, tgservice , inline , all , keybord]`
+ 
+ *> LanGuage BoT EngliSh !*
+_To Change The LanGuage_ `[Setlang]` `[en , fa]`
+*〰〰〰〰〰〰〰〰〰*]]
 
 elseif lang then
 
 lock2 = [[
 🔐راهنما قفل2🔛lock help2!🔐
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل گیف
-🔸 باز کردن گیف
-🔹 !lock gif
-🔸 !unlock gif
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل عکس
-🔸 باز کردن عکس
- 🔹 !lock photo
-🔸  !unlock photo
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فایل
-🔸 باز کردن فایل
-🔹 !lock document 
-🔸 !unlock document
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل استیکر
-🔸 باز کردن استیکر
-🔹  !lock sticker
-🔸 !unlock sticker
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فیلم 
-🔸 باز کردن فیلم
-🔹 !lock video
-🔸 !unlock video
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل متن
-🔸 باز کردن متن
-🔹 !lock text
-🔸 !unlock text
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فروارد
-🔸 باز کردن فروارد
-🔹  !lock forward
-🔸  !unlock forward
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل ویس
-🔸 باز کردن ویس
-🔹  !lock voice
-🔸 !unlock voice
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل اطلاعات تماس
-🔸 باز کردن اطلاعات تماس
-🔹  !lock contact
-🔸 !unlock contact
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل همه 
-🔸 باز کردن همه 
-🔹 !lock all
-🔸 !unlock all
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹قفل  اینلاین
-🔸 باز کردن اینلاین
-🔹 !lock inline
-🔸 !unlock inline
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+💠*EngliSh CoMmAnDs :*
+#Lock commands 
+🔒*Lock*  
+`[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
+🔓*Unlock* 
+ `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
+ #Mute commands
+🔇*Mute* 
+`[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact ,tgservice , inline , all , keyboard]`
+🔊*Unmute*
+ `[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact, tgservice , inline , all , keybord]`
+ 
+ *> LanGuage BoT EngliSh !*
+_To Change The LanGuage_ `[Setlang]` `[en , fa]`
+*〰〰〰〰〰〰〰〰〰*]]
 end
 return lock2
 end
@@ -309,218 +224,138 @@ end
 if matches[1]:lower() == "mod help" or matches[1] == "راهنما مدیریت" and is_mod(msg) then
 if not lang then
 helpfun = [[
-🔶راهنما مدیریت🔛mod help!🔶
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !setowner [username|id|reply] 
-🔷 مدیر 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !remowner [username|id|reply] 
- 🔶 حذف مدیر  【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !promote [username|id|reply] 
-🔷 ادمین 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !demote [username|id|reply] 
-🔶 حذف ادمین 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !setflood [1-50]
-🔷 تنظیم فلود 【50-1】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !silent [username|id|reply] 
-🔶 سایلنت 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unsilent [username|id|reply] 
-🔷 رفع سایلنت 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !kick [username|id|reply] 
-🔶 اخراج 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !ban [username|id|reply] 
-🔷 مسدود 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unban [username|id|reply] 
-🔶 رفع مسدود 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !res [username]
-🔷 رس 【نام کاربری】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !id [reply]
-🔶 ایدی 【ریپلای】 
- ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !whois [id]
-🔷 چه کسی 【ایدی】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !set[rules | name | photo | link | about ]
-🔶 تنظیم 【قوانین | اسم عکس | لینک | درباره گروه 】
- ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !clean [bans | mods | bots | rules | about | silentlist | filterlist | welcome]   
-🔷 پاک کردن 【 لیست مسدود| مدیران| ربات | قوانین | درباره | لیست سایلنت |  لیست فیلتر | ولکام 】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !filter [word]
-🔶 فیلتر‌【کلمه مورد نظر】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unfilter [word]
-🔷 رفع فیلتر 【کلمه مورد نظر】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !pin [reply]
-🔶 سنجاق 【ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unpin [reply]
-🔷 حذف سنجاق【ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !welcome enable/disable
-🔶 ولکام  [فعال - غیر فعال]
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !settings
-🔷  تنظیمات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !silentlist
-🔷 لیست سایلنت
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !filterlist
-🔶 لیست فیلتر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !banlist
-🔷 لیست مسدود
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !ownerlist
-🔶 لیست مدیران
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !modlist 
-🔷 لیست ادمین ها
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !rules
-🔶 قوانین
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !about
-🔷  درباره گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !id
-🔶 ایدی
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !gpinfo
-🔷  اطلاعات گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !link
-🔶  لینک 
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !setwelcome [text]
-🔷 ولکام نصب
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-‼️ توجه ‼️
-دستورات هم انگلیسی هستند هم فارسی میتوانید بنویسید 👇
-
- تنظیمات    👉👈   settings!                
- ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+#Modhelp
+*Setlang* `[fa - en]`
+⚡️تنظیم زبان پاسخ گویی ربات به دستورات
+*Silent* `[username , id , reply]`
+💥ساکت کردن فرد (هر پیامی که فرد بدهد پاک میشود(
+*Unsilent* `[username , id , reply]`
+⚡️بازکردن ساکت بودن فرد 
+*Kick* `[username , id , reply]`
+💥اخراج فرد از گروه
+*Ban* `[username , id , reply]`
+⚡️مسدود کردن فرد و اجازه ورود مجدد ندادن
+*Unban* `[username , id , reply]`
+💥خارج شدن فرد از حالت مسدود 
+*Delall* `[username , id , reply]`
+⚡️پاک کردن تمام پیام هایی که فرد داده است در گروه
+*Filter* `[text]`
+💥فیلتر کلمه مورد نظر و پاک شدن ان
+*Unfilter* `[text]`
+⚡️حذف کلمه مورد نظر از لیست فیلتر
+*Welcome* `[enable-disable]`
+💥روشن و خاموش کردن خوش امفعال
+*Mt* [3 4]
+⚡️تنظیم بیصدا به صورت ساعت ودقیقه
+*Unmt*
+💥بازکردن بیصدا زمان دار
+*Promote* `[username , id , reply]`
+💥تنظیم فرد به عنوان معاون ربات در گروه
+*Demote* `[username , id , reply]`
+💥تنزل مقام فرد از معاون ربات برای گروه
+*Settings*
+⚡️دریافت لیست تنظیمات
+*Modelist*
+💥دریافت لیست معاون های گروه
+*Ownerlist*
+⚡️دریافت لیست مدیران گروه 
+*Silentlist*
+💥دریافت لیست ساکت ها
+*Filterlist*
+⚡️دریافت لیست کلمات فیلتر
+*Setflood* `[1-50]`
+💥تنظیم حساسیت پیام مکرر
+*Set* `[rules , name , link , about]`
+⚡️تنظیم به ترتیب [قوانین ، اسم ، لینک ، درباره ، ] برای گروه
+*Setwelcome* `[text]`
+💥تنظیم خوش امد برای گروه
+*Res* `[username]`
+⚡️نمایش اطلاعات یوزرنیم
+*Whois* `[id]`
+💥نمایش اطلاعات برای ایدی عددی
+*Pin* `[reply]`
+⚡️پین پیام مورد نظر در گروه
+*Unpin* `[reply]`
+💥برداشتن پیام از حالت پین
+*Rules* 
+⚡️نمایش قوانین گروه
+*About*
+💥نمایش درباره گروه
+*Gpinfo*
+⚡️نمایش اطلاعات گروه
+*Link*
+💥دریافت لینک گروه
+ *> LanGuage BoT EngliSh !*
+_To Change The LanGuage_ `[Setlang]` `[en , fa]`
+*〰〰〰〰〰〰〰〰〰*)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 else
 
 helpfun = [[
-🔶راهنما مدیریت🔛mod help!🔶
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !setowner [username|id|reply] 
-🔷 مدیر 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !remowner [username|id|reply] 
- 🔶 حذف مدیر  【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !promote [username|id|reply] 
-🔷 ادمین 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !demote [username|id|reply] 
-🔶 حذف ادمین 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !setflood [1-50]
-🔷 تنظیم فلود 【50-1】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !silent [username|id|reply] 
-🔶 سایلنت 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unsilent [username|id|reply] 
-🔷 رفع سایلنت 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !kick [username|id|reply] 
-🔶 اخراج 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !ban [username|id|reply] 
-🔷 مسدود 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unban [username|id|reply] 
-🔶 رفع مسدود 【نام کاربری | آیدی | ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !res [username]
-🔷 رس 【نام کاربری】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !id [reply]
-🔶 ایدی 【ریپلای】 
- ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !whois [id]
-🔷 چه کسی 【ایدی】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !set[rules | name | photo | link | about ]
-🔶 تنظیم 【قوانین | اسم عکس | لینک | درباره گروه 】
- ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !clean [bans | mods | bots | rules | about | silentlist | filterlist | welcome]   
-🔷 پاک کردن 【 لیست مسدود| مدیران| ربات | قوانین | درباره | لیست سایلنت |  لیست فیلتر | ولکام 】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !filter [word]
-🔶 فیلتر‌【کلمه مورد نظر】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unfilter [word]
-🔷 رفع فیلتر 【کلمه مورد نظر】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !pin [reply]
-🔶 سنجاق 【ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !unpin [reply]
-🔷 حذف سنجاق【ریپلای】
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !welcome enable/disable
-🔶 ولکام  [فعال - غیر فعال]
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !settings
-🔷  تنظیمات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !silentlist
-🔷 لیست سایلنت
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !filterlist
-🔶 لیست فیلتر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !banlist
-🔷 لیست مسدود
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !ownerlist
-🔶 لیست مدیران
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !modlist 
-🔷 لیست ادمین ها
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !rules
-🔶 قوانین
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !about
-🔷  درباره گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !id
-🔶 ایدی
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !gpinfo
-🔷  اطلاعات گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !link
-🔶  لینک 
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-✩》 !setwelcome [text]
-🔷 ولکام نصب
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-‼️ توجه ‼️
-دستورات هم انگلیسی هستند هم فارسی میتوانید بنویسید 👇
-
- تنظیمات    👉👈   settings!                
- ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+#Modhelp
+*Setlang* `[fa - en]`
+⚡️تنظیم زبان پاسخ گویی ربات به دستورات
+*Silent* `[username , id , reply]`
+💥ساکت کردن فرد (هر پیامی که فرد بدهد پاک میشود(
+*Unsilent* `[username , id , reply]`
+⚡️بازکردن ساکت بودن فرد 
+*Kick* `[username , id , reply]`
+💥اخراج فرد از گروه
+*Ban* `[username , id , reply]`
+⚡️مسدود کردن فرد و اجازه ورود مجدد ندادن
+*Unban* `[username , id , reply]`
+💥خارج شدن فرد از حالت مسدود 
+*Delall* `[username , id , reply]`
+⚡️پاک کردن تمام پیام هایی که فرد داده است در گروه
+*Filter* `[text]`
+💥فیلتر کلمه مورد نظر و پاک شدن ان
+*Unfilter* `[text]`
+⚡️حذف کلمه مورد نظر از لیست فیلتر
+*Welcome* `[enable-disable]`
+💥روشن و خاموش کردن خوش امفعال
+*Mt* [3 4]
+⚡️تنظیم بیصدا به صورت ساعت ودقیقه
+*Unmt*
+💥بازکردن بیصدا زمان دار
+*Promote* `[username , id , reply]`
+💥تنظیم فرد به عنوان معاون ربات در گروه
+*Demote* `[username , id , reply]`
+💥تنزل مقام فرد از معاون ربات برای گروه
+*Settings*
+⚡️دریافت لیست تنظیمات
+*Modelist*
+💥دریافت لیست معاون های گروه
+*Ownerlist*
+⚡️دریافت لیست مدیران گروه 
+*Silentlist*
+💥دریافت لیست ساکت ها
+*Filterlist*
+⚡️دریافت لیست کلمات فیلتر
+*Setflood* `[1-50]`
+💥تنظیم حساسیت پیام مکرر
+*Set* `[rules , name , link , about]`
+⚡️تنظیم به ترتیب [قوانین ، اسم ، لینک ، درباره ، ] برای گروه
+*Setwelcome* `[text]`
+💥تنظیم خوش امد برای گروه
+*Res* `[username]`
+⚡️نمایش اطلاعات یوزرنیم
+*Whois* `[id]`
+💥نمایش اطلاعات برای ایدی عددی
+*Pin* `[reply]`
+⚡️پین پیام مورد نظر در گروه
+*Unpin* `[reply]`
+💥برداشتن پیام از حالت پین
+*Rules* 
+⚡️نمایش قوانین گروه
+*About*
+💥نمایش درباره گروه
+*Gpinfo*
+⚡️نمایش اطلاعات گروه
+*Link*
+💥دریافت لینک گروه
+ *> LanGuage BoT EngliSh !*
+_To Change The LanGuage_ `[Setlang]` `[en , fa]`
+*〰〰〰〰〰〰〰〰〰*]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 end
 end
@@ -530,104 +365,75 @@ if not lang then
 text = [[
 
 🔰 راهنما سودو 🔰
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !visudo [username|id|reply]
-✰》اضافه کردن سودو
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
- ⚜️ !desudo [username|id|reply]
-✰》 حذف کردن سودو
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !sudolist 
-✰》 لیست سودو‌های ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !adminprom [username|id|reply]
-✰》 اضافه کردن ادمین به ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !admindem [username|id|reply]
-✰》 حذف فرد از ادمینی ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !adminlist 
-✰》 لیست ادمین ها
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !leave 
-✰》 خارج شدن ربات از گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !autoleave [disable/enable]
- ✰》 خروج خودکار
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !creategroup [text]
-✰》 ساخت گروه ریلم
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !createsuper [text]
-✰》 ساخت سوپر گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !tosuper 
-✰》 تبدیل به سوپر گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !chats
-✰》 لیست گروه های مدیریتی ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !join [id]
-✰》 جوین شدن توسط ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !rem [id]
-✰》 حذف گروه ازطریق پنل مدیریتی
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !import [link]
-✰》 جوین شدن ربات توسط لینک
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !setbotname [text]
-✰》 تغییر اسم ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !setbotusername [text]
-✰》 تغییر یوزرنیم ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !delbotusername 
-✰》 پاک کردن یوزرنیم ربات
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !markread [off/on]
-✰》 تیک دوم
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !broadcast [text]
-✰》 فرستادن پیام به تمام گروه ها
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !bc [text] [gpid]
-✰》 ارسال پیام مورد نظر به گروه خاص
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !sendfile [cd] [file]
-✰》 ارسال فایل موردنظر از پوشه خاص
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !sendplug [plug]
-✰》 ارسال پلاگ مورد نظر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !save [plugin name] [reply]
-✰》 ذخیره کردن پلاگین
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !savefile [address/filename] [reply]
-✰》 ذخیره کردن فایل در پوشه مورد نظر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !clear cache
-✰》 پاک کردن کش مسیر .telegram-cli/data
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !check
-✰》 اعلام تاریخ انقضای گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !check [GroupID]
-✰》 اعلام تاریخ انقضای گروه مورد نظر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !charge [GroupID] [Number Of Days]
-✰》 تنظیم تاریخ انقضای گروه مورد نظر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !charge [Number Of Days]
-✰》 تنظیم تاریخ انقضای گروه
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !jointo [GroupID]
-✰》 دعوت شدن شما توسط ربات به گروه مورد نظر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-⚜️ !leave [GroupID]
-✰》 خارج شدن ربات از گروه مورد نظر
-﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+*Visudo* `[username|id|reply]`
+🔹_اضافه کردن سودو_
+*Desudo* `[username|id|reply]`
+🔸_حذف کردن سودو_
+*Sudolist* 
+🔹_لیست سودو‌های ربات_
+*Adminprom* `[username|id|reply]`
+🔸_اضافه کردن ادمین به ربات_
+*Admindem* `[username|id|reply]`
+🔹_حذف فرد از ادمینی ربات_
+*Adminlist* 
+🔸_لیست ادمین ها_
+*Leave* 
+🔹_خارج شدن ربات از گروه_
+*Autoleave* `[disable/enable]`
+🔸_خروج خودکار_
+*Creategroup* `[text]`
+🔹_ساخت گروه ریلم_
+*Createsuper* `[text]`
+🔸_ساخت سوپر گروه_
+*Tosuper* 
+🔹_تبدیل به سوپر گروه_
+*Chats*
+🔸_لیست گروه های مدیریتی ربات_
+*Join* `[id]`
+🔹_جوین شدن توسط ربات_
+*Rem* `[id]`
+🔸_حذف گروه ازطریق پنل مدیریتی_
+*Import* `[link]`
+🔹_جوین شدن ربات توسط لینک_
+*Setbotname* `[text]`
+🔸_تغییر اسم ربات_
+*Setbotusername* `[text]`
+🔹_تغییر یوزرنیم ربات_
+*Delbotusername* 
+🔸_پاک کردن یوزرنیم ربات_
+*Markread* `[off/on]`
+🔹_تیک دوم_
+*Broadcast* `[text]`
+🔸_فرستادن پیام به تمام گروه های مدیریتی ربات_
+*Bc* `[text]` `[gpid]`
+🔹_ارسال پیام مورد نظر به گروه خاص_
+*Sendfile* `[cd]` `[file]`
+🔸_ارسال فایل موردنظر از پوشه خاص_
+*Sendplug* `[plug]`
+🔹_ارسال پلاگ مورد نظر_
+*Save* `[plugin name] [reply]`
+🔸_ذخیره کردن پلاگین_
+*Savefile* `[address/filename] [reply]`
+🔹_ذخیره کردن فایل در پوشه مورد نظر_
+*Clear cache*
+🔸_پاک کردن کش مسیر .telegram-cli/data_
+*Check*
+🔹_اعلام تاریخ انقضای گروه_
+*Check* `[GroupID]`
+🔸_اعلام تاریخ انقضای گروه مورد نظر_
+*Charge* `[GroupID]` `[Number Of Days]`
+🔹_تنظیم تاریخ انقضای گروه مورد نظر_
+*Charge* `[Number Of Days]`
+🔸_تنظیم تاریخ انقضای گروه_
+*Jointo* `[GroupID]`
+🔹_دعوت شدن شما توسط ربات به گروه مورد نظر_
+*Leave* `[GroupID]`
+🔸_خارج شدن ربات از گروه مورد نظر_
+🍃*شما میتوانید از [!/#] در اول دستورات برای اجرای آنها بهره بگیرید*
+⚡_این راهنما فقط برای سودو ها/ادمین های ربات میباشد!_
+⚠`این به این معناست که فقط سودو ها/ادمین های ربات میتوانند از دستورات بالا استفاده کنند!`
+*موفق باشید ;)*
+*〰〰〰〰〰〰〰〰〰*)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 else
 
