@@ -432,7 +432,7 @@ Set Expire Time For Group
 
 !leave [GroupID]
 Leave Bot From Specific Group
-🌐 @bombangteam 🌐 ;)]]
+🌐 @deleteTeam 🌐 ;)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 end
 end
