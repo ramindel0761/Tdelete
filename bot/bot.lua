@@ -91,7 +91,9 @@ function create_config( )
 	"Write",
 	"monshi",
 	"bombanghelp",
-	"lock-fosh"
+	"lock-fosh",
+        "Fun",
+        "me"
 	
  },
     sudo_users = {240870611},
