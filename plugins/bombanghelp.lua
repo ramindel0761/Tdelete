@@ -81,13 +81,7 @@ lock = [[
 `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
 🔓*Unlock* 
  `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
- #Mute commands
-🔇*Mute* 
-`[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact ,tgservice , inline , all , keyboard]`
-🔊*Unmute*
- `[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact, tgservice , inline , all , keybord]`
- 
- *> LanGuage BoT EngliSh !*
+*> LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 *〰〰〰〰〰〰〰〰〰*]]
 end
@@ -98,12 +92,7 @@ if matches[1]:lower() == "lock help2" or matches[1] == 'راهنما قفل2' an
 if not lang then
 lock2 = [[
 🔐راهنما قفل2🔛lock help2!🔐
-#Lock commands 
-🔒*Lock*  
-`[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
-🔓*Unlock* 
- `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh]`
- #Mute commands
+#Mute commands
 🔇*Mute* 
 `[gif , photo , document , sticker , video , text , forward , location , audio , voice , contact ,tgservice , inline , all , keyboard]`
 🔊*Unmute*
